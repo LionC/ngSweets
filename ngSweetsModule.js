@@ -4,9 +4,6 @@
 
 	function focus($timeout) {
 		return {
-			scope: {
-				
-			},
 			restrict: 'A',
 			link: function(scope, element, attributes) {
 				if(attributes.focus != '') {
