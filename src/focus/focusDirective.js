@@ -1,8 +1,6 @@
 (function(){
 
-	angular.module('ngSweets',[]);
-
-	function focus($timeout) {
+  function focus($timeout) {
 		return {
 			restrict: 'A',
 			link: function(scope, element, attributes) {
