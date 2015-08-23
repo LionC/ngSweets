@@ -1,0 +1,22 @@
+{
+  "name": "ngSweets",
+  "version": "0.1",
+  "homepage": "https://github.com/LionC/ngSweets",
+  "authors": [
+    "LionC <lionc@ilu.st>"
+  ],
+  "description": "A collection of small general-purpose angular candies",
+  "keywords": [
+    "angular",
+    "sweets",
+    "ilu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
