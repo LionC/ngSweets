@@ -1,7 +1,8 @@
 {
-  "name": "ngSweets",
+  "name": "ng-sweets",
   "version": "0.1.0",
   "homepage": "https://github.com/LionC/ngSweets",
+  "repository": "https://github.com/LionC/ngSweets",
   "authors": [
     "LionC <lionc@ilu.st>"
   ],

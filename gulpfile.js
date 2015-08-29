@@ -14,6 +14,12 @@ gulp.task('scripts', function(){
   .pipe(gulp.dest('dist'));
 });
 
+gulp.task('debug', function(){
+  return gulp.src(['src/ngSweetsModule.js', 'src/**/*.js'])
+  .pipe(concat('ngsweets.js'))
+  .pipe(gulp.dest('debug'));
+});
+
 gulp.task('build', ['scripts', 'copy-packagefiles']);
 
 gulp.task('watch', function(){
