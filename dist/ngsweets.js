@@ -1,0 +1,1 @@
+!function(){angular.module("ngSweets",[])}(),function(){function n(n,u){return{restrict:"A",link:function(t,c,o){""==o.focus?n(function(){c[0].focus()}):t.$watch(u(o.focus),function(u){u===!0&&n(function(){c[0].focus()})})}}}angular.module("ngSweets").directive("focus",["$timeout","$parse",n])}();
