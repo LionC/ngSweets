@@ -1,6 +1,6 @@
 {
-  "name": "ngsweets",
-  "version": "1.0.0",
+  "name": "ng-sweets",
+  "version": "0.1.0",
   "description": "Collection of small general-purpose angular candy",
   "main": "ngSweetsModule.js",
   "scripts": {
@@ -15,8 +15,8 @@
     "sweets",
     "ilu"
   ],
-  "author": "LionC",
-  "license": "ISC",
+  "author": "LionC<lionc@ilu.st>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/LionC/ngSweets/issues"
   },
