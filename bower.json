@@ -4,20 +4,24 @@
   "homepage": "https://github.com/LionC/ngSweets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LionC/ngSweets",
+    "url": "git://github.com/LionC/ngSweets.git"
   },
   "authors": [
     "LionC <lionc@ilu.st>"
   ],
   "main": "dist/ngsweets.js",
-  "description": "A collection of small general-purpose angular candies",
+  "description": "A collection of general-purpose angular candies",
   "keywords": [
     "angular",
     "sweets",
+    "ng",
+    "lionc",
+    "lioncilu",
     "ilu"
   ],
   "license": "MIT",
   "ignore": [
+    "**/*",
     "*",
     "!dist",
     "!dist/**/*"
