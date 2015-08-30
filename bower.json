@@ -9,6 +9,7 @@
   "authors": [
     "LionC <lionc@ilu.st>"
   ],
+  "main": "dist/ngsweets.js",
   "description": "A collection of small general-purpose angular candies",
   "keywords": [
     "angular",
