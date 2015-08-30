@@ -22,9 +22,7 @@
   "license": "MIT",
   "ignore": [
     "**/*",
-    "*",
-    "!dist",
-    "!dist/**/*"
+    "!dist/ngsweets.js"
   ],
   "dependencies": {
     "angular": "^1.4.5"
