@@ -1,6 +1,9 @@
 (function(){
 
-  function focus($timeout, $parse) {
+  angular.module('ngSweets')
+		.directive('focus', ['$timeout', focus]);
+
+  function focus($timeout) {
 		return {
 			restrict: 'A',
 			link: function(scope, element, attributes) {
@@ -19,8 +22,5 @@
 			}
 		};
 	}
-
-	angular.module('ngSweets')
-		.directive('focus', ['$timeout', '$parse', focus]);
 
 })();
